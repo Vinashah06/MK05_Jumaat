@@ -1,0 +1,86 @@
+/* ===== General Styling ===== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+/* Page Title */
+h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #2c3e50;
+}
+
+/* ===== Image Styling ===== */
+
+.profile-img {
+    max-height: 500px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+/* ===== Card Styling ===== */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background: #ffffff;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Card Title */
+.card-title {
+    font-weight: 600;
+    color: #34495e;
+}
+
+/* ===== List Styling ===== */
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* ===== Button Styling ===== */
+
+.btn-primary {
+    background-color: #1e88e5;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
+
+/* ===== Mobile Responsive ===== */
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .profile-img {
+        max-height: 350px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
